@@ -1,0 +1,109 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	padding: 0;
+	margin: 0;
+	min-width: 350px;
+	position: relative;
+    font-size: 14px;
+}
+a {
+	outline : none;
+	color: #3889AB;
+}
+
+a.menuOption {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+#header {
+    border-bottom: solid 1px #91E0C5;
+    font-weight: bold;
+    color: #555;
+    padding: 10px 0 8px 10px;
+}
+#header img {
+	z-index: 2;
+}
+#header #spaceEdit {
+    cursor: pointer;
+    font-size: 18px;
+    float: right;
+    padding: 8px;
+    margin-top: -7px;
+    margin-right: 0px;
+}
+#spaceEdit:hover {
+    color: #000;
+    background-color: #91E0C5;
+}
+
+.group {
+	padding: 5px 0;
+}
+
+.menuOption {
+	line-height: 2em;
+	white-space: nowrap;
+	cursor: pointer;
+	padding: 0 10px;
+}
+.menuOption .optionText:hover {
+	text-decoration: underline;
+}
+.menuOption .hotkey {
+    float: right;
+    font-size: 13px;
+    color: #888;
+}
+.menuOption .hotkey:hover {
+    text-decoration: underline;
+}
+.menuOption:hover .fa {
+	opacity: 1;
+}
+.menuOption img {
+
+}
+.fa {
+	margin-right: 5px;
+	opacity: 0.8;
+}
+
+#addSpace_container{
+	padding:10px 0px 10px 30px;
+}
+
+#addSpace_container input{
+	padding: 5px 2px;
+    font-size: 14px;
+    margin: 0px;
+    width: 150px;
+}
+
+#addSpace_container .add{
+	margin: 0 10px;
+}
+
+#addSpace_container button {
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 10px;
+    border: none;
+}
+#addSpace_container button.add {
+    background-color: #FFD082;
+}
+#addSpace_container button.add:hover,#addSpace_container button.add.selected {
+    background-color: #FFAF29;
+    border: none;
+}
+#addSpace_container button.cancel {
+    background-color: #D7D7D7;
+}
+#addSpace_container button.cancel:hover {
+    background-color: #C3BEBE;
+    border: none;
+}
